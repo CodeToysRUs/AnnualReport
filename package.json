@@ -1,5 +1,5 @@
 {
-  "name": "your-project-name",
+  "name": "annual-report",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,7 +10,7 @@
   "dependencies": {
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
-    "vue-router": "^4.2.5"
+    "vue-router": "3"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
@@ -40,5 +40,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/CodeToysRUs/AnnualReport.git",
+  "author": "在Coding的路上徘徊 <125429515+CodeToysRUs@users.noreply.github.com>",
+  "license": "MIT"
 }

@@ -1,6 +1,6 @@
 <template>
-  <div class="loading">
-    <div class="iphone-top">1</div>
+  <div class="loading" @click="loginPage">
+    <div class="iphone-top">iphone头部</div>
     <div class="loading-top">
       <div class="loading-top-title">棵岩阅读</div>
       <div class="loading-top-percent">{{percentNumber}}%</div>
@@ -29,9 +29,6 @@ export default {
   },
   data() {
     return {
-      dots:['.', '.', ''],
-      // currentIndex: 0,
-      // intervalId: null,
       dotIndex: null,
       dot1: false,
       dot2: false,
@@ -49,7 +46,7 @@ export default {
   },
   methods: {
     loginPage() {
-      this.$router.push('/login-page');
+      this.$router.push('/loginPage');
     },
     updatePercentNumber() {
       if (this.percentNumber < 98) {

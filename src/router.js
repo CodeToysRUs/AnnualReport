@@ -2,6 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import LoadingPage from './views/LoadingPage/LoadingPage.vue';
 import LoginPage from './views/Login/LoginPage.vue';
+import OpenReportPage from './views/OpenReport/OpenReportPage.vue';
 
 Vue.use(Router);
 
@@ -10,14 +11,17 @@ export default new Router({
     {
       path: '/',
       name: 'LoadingPage',
-      // component: () => import('./views/LoadingPage/LoadingPage.vue')
       component: LoadingPage
     },
     {
-      path: '/login-page',
+      path: '/loginPage',
       name: 'LoginPage',
-      // component: () => import('./views/Login/LoginPage.vue')
       component: LoginPage
-    }
+    },
+    {
+      path: '/openReportPage',
+      name: 'OpenReportPage',
+      component: OpenReportPage
+    },
   ]
 });
