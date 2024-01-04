@@ -49,8 +49,9 @@
 }
 .loading-title {
   /* width: ; */
-  height: 97px;
-  width: 292px;
+  height: 87px;
+  /* width: 292px; */
+  width: 300px;
   /* background-color: aquamarine; */
   display: flex;
   flex-direction: row;
@@ -69,6 +70,7 @@
   /* background-color: aliceblue; */
 }
 .loading-title-dot {
+  height: 87px;
   font-family: Source Han Sans CN VF;
   font-size: 60px;
   font-weight: 500;
@@ -76,6 +78,20 @@
   letter-spacing: -0.30000001192092896px;
   text-align: center;
   /* background-color: aliceblue; */
+  display: flex;
+  flex-direction: row;
+  /* justify-content: end; */
+  align-items: end;
+  position: relative;
+  bottom: 15px;
+}
+.loading-title-dot-index {
+  width: 10px;
+  height: 10px;
+  /* background-color: aqua; */
+  border-radius: 50%;
+  border: #000000 1px solid;
+  margin: 0 3px;
 }
 .loading-img img {
   padding-top: 325px;

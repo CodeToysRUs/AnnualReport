@@ -6,7 +6,7 @@
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import LoadingPage from './components/LoadingPage/LoadingPage.vue'
+import LoadingPage from './views/LoadingPage/LoadingPage.vue'
 
 export default {
   name: 'App',
