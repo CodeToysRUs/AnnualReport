@@ -8,6 +8,7 @@ import ReadingTimeDetail from './views/ReadingTimeDetail/ReadingTimeDetail.vue'
 import NotesDetail from './views/NotesDetail/NotesDetail.vue'
 import ArticleNotes from './views/ArticleNotes/ArticleNotes.vue'
 import BeforeAnswering from './views/BeforeAnswering/BeforeAnswering.vue'
+import ResultPage from './views/ResultPage/ResultPage.vue'
 
 Vue.use(Router);
 
@@ -52,6 +53,11 @@ export default new Router({
       path: '/beforeAnswering',
       name: 'BeforeAnswering',
       component: BeforeAnswering
+    },
+    {
+      path: '/resultPage',
+      name: 'ResultPage',
+      component: ResultPage
     },
   ]
 });
