@@ -9,6 +9,7 @@ import NotesDetail from './views/NotesDetail/NotesDetail.vue'
 import ArticleNotes from './views/ArticleNotes/ArticleNotes.vue'
 import BeforeAnswering from './views/BeforeAnswering/BeforeAnswering.vue'
 import ResultPage from './views/ResultPage/ResultPage.vue'
+import DayDetail from './views/DayDetail/DayDetail.vue'
 
 Vue.use(Router);
 
@@ -58,6 +59,11 @@ export default new Router({
       path: '/resultPage',
       name: 'ResultPage',
       component: ResultPage
+    },
+    {
+      path: '/dayDetail',
+      name: 'DayDetail',
+      component: DayDetail
     },
   ]
 });

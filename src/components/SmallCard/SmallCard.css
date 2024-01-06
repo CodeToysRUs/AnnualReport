@@ -1,0 +1,27 @@
+.small-card {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+}
+.small-card img {
+  width: 65px;
+  height: 29px;
+}
+.small-card-content {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  width: 61px;
+  height: 25px;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}

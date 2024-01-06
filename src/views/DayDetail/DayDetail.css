@@ -1,0 +1,92 @@
+.day-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: visible;
+  /* height: fit-content; */
+  /* overflow-y: inherit; */
+  /* background-color: cyan; */
+  position: relative;
+}
+.day-detail-bg {
+  width: 303.87px;
+  height: 275.92px;
+  position: absolute;
+  top: 300.16px;
+  /* background-color: beige; */
+}
+.day-detail-user {
+  width: 301px;
+  background-color: antiquewhite;
+}
+.day-detail-user img {
+  width: 64px;
+  height: 64px;
+}
+.day-detail-top {
+  width: 301px;
+  /* background-color: aqua; */
+  padding-bottom: 11px;
+  border-bottom: #000001 dashed 1px;
+  margin-top: 21px;
+}
+.day-detail-top-text {
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 15px;
+  width: 301px;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.day-detail-small-card {
+  position: relative;
+  top: 3px;
+}
+.day-detail-top1 {
+  margin-top: 21px;
+  width: 301px;
+  /* background-color: cadetblue; */
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-bottom: 35px;
+  border-bottom: #000001 dashed 1px;
+}
+.day-detail-middle {
+  margin-top: 12px;
+  width: 301px;
+  /* background-color: coral; */
+  font-family: PingFang SC;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+.day-detail-middle-img img {
+  height: 406px;
+  height: 125px;
+  /* background-color: darkgoldenrod; */
+  z-index: 10;
+  margin-top: 27px;
+  position: relative;
+  left: 18px;
+}
+.day-detail-bottom-img img {
+  width: 406px;
+  height: 167px;
+  /* background-color: darkgreen; */
+  position: relative;
+  left: 53px;
+  margin-top: 35px;
+}

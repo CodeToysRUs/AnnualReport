@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  /* background-color: #22A9B9; */
 }
 .result-page-top {
   height: 77px;
@@ -11,6 +12,8 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  /* margin-bottom: calc(25px - 11.2px); */
+  margin-bottom: 25px;
 }
 .result-page-top-left-top {
   margin-top: 21px;
@@ -38,6 +41,7 @@
   margin-left: 4px;
   /* position: relative;
   bottom: 2px; */
+  background-color: transparent;
 }
 .result-page-top-right {
   display: flex;
@@ -61,11 +65,44 @@
   color: #000000;
   margin-top: 9px;
 }
+
+.result-page-button {
+  width: 312px;
+  height: 46px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 18px;
+}
+.result-page-button img {
+  width: 32px;
+  height: 32px;
+}
+.result-page-button-right {
+  width: 260px;
+  height: 46px;
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: PingFang SC;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.result-page-container {
+  /* margin-top: 11.2px; */
+}
 .result-page-middle {
   width: 311px;
   height: 291px;
   /* background-color: brown; */
-  margin-top: 25px;
+  /* margin-top: 25px; */
+  /* margin-top: 11.2px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -263,32 +300,125 @@
   height: 164px;
   margin-top: 54px;
 }
-
-.result-page-button {
-  width: 312px;
-  height: 46px;
+.result-page-share {
+  /* background-color: #F495D9; */
+  width: 100%;
+  height: 100%;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
-  margin-top: 32px;
+  /* justify-content: center; */
 }
-.result-page-button img {
-  width: 32px;
-  height: 32px;
-}
-.result-page-button-right {
-  width: 260px;
-  height: 46px;
-  background-color: #000000;
-  color: #FFFFFF;
-  font-family: PingFang SC;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
+.result-page-share-title {
+  width: 301px;
+  height: 25px;
+  /* background-color: #95F4C6; */
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  position: relative;
+}
+.result-page-share-title-back {
+  font-family: PingFang SC;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+}
+.result-page-share-title-back img {
+  width: 20px;
+  height: 20px;
+}
+.result-page-share-img {
+  width: 277px;
+  height: 604px;
+  border: #000000 2px solid;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin-top: 18px;
+  /* background-color: #22A9B9; */
+}
+.result-page-share-img-bg-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 277px;
+  height: 604px;
+  /* background-color: #95F4C6; */
+  z-index: -1;
+}
+.result-page-share-img-bg {
+  position: relative;
+  /* width: calc(277px - 28.2px); */
+  width: 277px;
+  height: 604px;
+  /* height: calc(604px - 82.8px); */
+}
+.result-page-share-img-bg img {
+  position: absolute;
+  width: 277px;
+  height: 604px;
+  /* height: calc(604px - 82.8px); */
 }
 
+.result-page-share-img-top {
+  width: calc(277px - 28.2px);
+  /* height: calc(604px - 72.8px); */
+  height: calc(604px - 92.8px);
+  /* background-color: #95F4C6; */
+  /* z-index: 10px; */
+  z-index: 2;
+  margin-top: 11.2px;
+  /* background-color: #95F4C6; */
+  /* position: relative;
+  top: 11.2; */
+}
+.result-page-share-img-bottom {
+  width: 277px;
+  height: 72.8px;
+  position: relative;
+  z-index: 2;
+}
+.result-page-share-img-bottom img{
+  width: 277px;
+  height: 72.8px;
+  /* background-color: #000000; */
+}
+.result-page-share-img-bottom-weChat {
+  position: absolute;
+  top: 6.4px;
+  right: 6.4px;
+  width: 41.6px;
+  height: 41.6px;
+  background-color: brown;
+}
+.result-page-share-bottom {
+  width: 234px;
+  height: 58px;
+  /* background-color: #D9D9D9; */
+  margin-top: 23px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-page-share-bottom img {
+  width: 36px;
+  height: 58px;
+}
